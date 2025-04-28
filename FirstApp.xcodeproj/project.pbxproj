@@ -60,7 +60,7 @@
 		B22C507D2D57BC3700AE6590 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22C508D2D57BC3900AE6590 /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22C50972D57BC3900AE6590 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B22C50CD2D57BC7900AE6590 /* DomainLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DomainLayer.xcodeproj; path = ../DomainLayer/DomainLayer.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B22C50CD2D57BC7900AE6590 /* DomainLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DomainLayer.xcodeproj; path = DomainLayer/DomainLayer.xcodeproj; sourceTree = SOURCE_ROOT; };
 		B22C50FB2D57BCA000AE6590 /* PresentationLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PresentationLayer.xcodeproj; path = PresentationLayer/PresentationLayer.xcodeproj; sourceTree = "<group>"; };
 		B22C51332D57BCFB00AE6590 /* DataLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DataLayer.xcodeproj; path = DataLayer/DataLayer.xcodeproj; sourceTree = "<group>"; };
 		B22C516D2D58084700AE6590 /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,13 +156,6 @@
 			sourceTree = "<group>";
 		};
 		B22C51C62D5D416C00AE6590 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B22C51C82D5D416C00AE6590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -284,10 +277,6 @@
 				{
 					ProductGroup = B22C51342D57BCFB00AE6590 /* Products */;
 					ProjectRef = B22C51332D57BCFB00AE6590 /* DataLayer.xcodeproj */;
-				},
-				{
-					ProductGroup = B22C51C82D5D416C00AE6590 /* Products */;
-					ProjectRef = B22C50CD2D57BC7900AE6590 /* DomainLayer.xcodeproj */;
 				},
 				{
 					ProductGroup = B22C51C62D5D416C00AE6590 /* Products */;
